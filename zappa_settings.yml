@@ -8,4 +8,11 @@ dev:
   s3_bucket: zappa-3td8rolay
   keep_warm: False
   num_retained_versions: 3
+  layers:
+    - arn:aws:lambda:ca-central-1:099636666054:layer:zappa_test:1
+  exclude:
+    - env
+    - env2
+    - __pycache__
+    - .gitignore
 
