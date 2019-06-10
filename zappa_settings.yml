@@ -1,0 +1,11 @@
+---
+dev:
+  app_function: app.app
+  aws_region: ca-central-1
+  profile_name: default
+  project_name: aws-lambda-test
+  runtime: python3.6
+  s3_bucket: zappa-3td8rolay
+  keep_warm: False
+  num_retained_versions: 3
+
